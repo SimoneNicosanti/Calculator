@@ -57,7 +57,6 @@ public class Calculator extends Application {
         HBox numberKeyboardBox = createNumberKeyboard() ;
         VBox operationKeyboardBox = createKeyboardColumn(OPERATION_STRING_ARRAY) ;
         VBox manageKeyboardBox = createKeyboardColumn(MANAGE_STRING_ARRAY) ;
-        //VBox scientificOperationKeyboardBox = createKeyboardColumn(SCIENTIFIC_OPERATION_STRING_ARRAY) ;
 
         keyboardHorBox.getChildren().addAll(numberKeyboardBox, operationKeyboardBox, manageKeyboardBox) ;
 
