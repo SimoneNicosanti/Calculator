@@ -34,6 +34,8 @@ public class Calculator extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
+        int i = 0 ;
+
         VBox labelVertBox = createLabelVertBox() ;
         HBox keyboardHorBox = createKeyboardHorBox() ;
 
