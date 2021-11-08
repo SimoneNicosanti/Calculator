@@ -25,7 +25,7 @@ public class Calculator extends Application {
 
     public static final List<String> OPERATION_STRING_ARRAY = List.of("+", "-", "x", "/", /*"^2",*/ "=") ;
     public static final List<String> MANAGE_STRING_ARRAY = List.of("<<", "Clear", "Ans",".", "(-)") ;
-    //public static final List<String> SCIENTIFIC_OPERATION_STRING_ARRAY = List.of("Sin", "Cos", "Tan") ;
+    public static final List<String> SCIENTIFIC_OPERATION_STRING_ARRAY = List.of("Sin", "Cos", "Tan") ;
 
     public static final double PADDING = 5 ;
 
