@@ -13,6 +13,8 @@ import javafx.stage.Stage;
 import java.util.ArrayList;
 import java.util.List;
 
+//Alla vita non è concesso in sorte di riveder se stessa nella morte
+
 
 public class Calculator extends Application {
 
