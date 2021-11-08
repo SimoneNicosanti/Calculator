@@ -26,15 +26,13 @@ public class Calculator extends Application {
 
     public static final List<String> OPERATION_STRING_ARRAY = List.of("+", "-", "x", "/", /*"^2",*/ "=") ;
     public static final List<String> MANAGE_STRING_ARRAY = List.of("<<", "Clear", "Ans",".", "(-)") ;
-    public static final List<String> SCIENTIFIC_OPERATION_STRING_ARRAY = List.of("Sin", "Cos", "Tan") ;
+    //public static final List<String> SCIENTIFIC_OPERATION_STRING_ARRAY = List.of("Sin", "Cos", "Tan") ;
 
     public static final double PADDING = 5 ;
 
 
     @Override
     public void start(Stage stage) throws Exception {
-
-        int i = 0 ;
 
         VBox labelVertBox = createLabelVertBox() ;
         HBox keyboardHorBox = createKeyboardHorBox() ;
@@ -111,7 +109,6 @@ public class Calculator extends Application {
 
     private VBox createVerticalBox(Node...nodes) {
         VBox vertBox = new VBox() ;
-        int i = 0 ;
         for (Node node : nodes) {
             vertBox.getChildren().add(node) ;
         }
