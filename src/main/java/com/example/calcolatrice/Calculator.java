@@ -111,6 +111,7 @@ public class Calculator extends Application {
 
     private VBox createVerticalBox(Node...nodes) {
         VBox vertBox = new VBox() ;
+        int i = 0 ;
         for (Node node : nodes) {
             vertBox.getChildren().add(node) ;
         }
